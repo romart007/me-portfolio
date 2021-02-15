@@ -207,6 +207,13 @@
     o2.trigger('to.owl.carousel',e.page.index * o2settings.slideBy);
   });
 
+  if(window.location.search && window.location.search.includes('item')) {
+    var item = Number(window.location.search.split('=')[1]) - 1;
+
+    $("#c1").trigger("to.owl.carousel", [item, 1, true]);
+  }
+
+
   // Init AOS
   function aos_init() {
     AOS.init({
