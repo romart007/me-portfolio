@@ -395,6 +395,24 @@ section:not(#hero) {
     transform: translate(20%, 210%);
   }
 }
+
+@media (max-width: 430px) { 
+  .prof-container lottie-player {
+    transform: translate(20%, 170%);
+  }
+}
+
+@media (max-width: 420px) { 
+  .prof-container lottie-player {
+    transform: translate(20%, 155%);
+  }
+}
+
+@media (max-width: 380px) { 
+  .prof-container lottie-player {
+    transform: translate(20%, 140%);
+  }
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
