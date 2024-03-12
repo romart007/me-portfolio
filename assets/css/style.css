@@ -64,6 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 .about, 
 .about .section-title p,
 .resume,
+.contact .section-title p,
 .resume .section-title p {
   color: white;
 }
@@ -389,6 +390,11 @@ section:not(#hero) {
   transform: translate(25%, 150%)
 }
 
+@media (max-width: 768px) { 
+  .prof-container lottie-player {
+    transform: translate(20%, 210%);
+  }
+}
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
