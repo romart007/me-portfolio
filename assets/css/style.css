@@ -76,8 +76,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .about, 
 .about .section-title p,
-.resume,
 .contact .section-title p,
+.contact label,
+.resume,
 .resume .section-title p {
   color: white;
 }
@@ -342,6 +343,10 @@ h1, h2, h3, h4, h5, h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+}
+
+section:not(.portfolio-details),
+section:not(.breadcrumbs), {
   color: white;
 }
 
