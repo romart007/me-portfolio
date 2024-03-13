@@ -60,26 +60,6 @@
     }
   });
 
-  $(document).ready(function() {
-  // Function to toggle between elements
-    function toggleElements() {
-      const element1 = document.getElementById('profile-vid');
-      const element2 = document.getElementById('profile-img');
-
-      if (element1.style.display === 'block') {
-          element1.style.display = 'none';
-          element2.style.display = 'block';
-      } else {
-          element1.style.display = 'block';
-          element2.style.display = 'none';
-      }
-    }
-
-    // Set interval to toggle between elements every 3 seconds (adjust as needed)
-    // setInterval(toggleElements, 3000);
-  });
-
-
 
   $(document).on('click', '.mobile-nav-toggle', function(e) {
     $('body').toggleClass('mobile-nav-active');
